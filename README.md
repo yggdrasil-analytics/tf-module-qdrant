@@ -4,6 +4,12 @@ Terraform module that deploys Qdrant, a performant vector store for managing vec
 
 This is a reusable module. Another Terraform project calls it and supplies the inputs.
 
+## Learning Terraform with this repo
+
+This repo doubles as a step-by-step Terraform curriculum, built by evolving this exact module from a
+one-file, no-frills local deployment into a versioned, production-shaped module. New to Terraform?
+Start at [`CURRICULUM.md`](CURRICULUM.md).
+
 ## Usage
 
 ```hcl
